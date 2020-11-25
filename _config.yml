@@ -1,0 +1,29 @@
+theme: minimal-mistakes-jekyll
+
+collections:
+  authors:
+    output: true
+    collections:
+    permalink: /:collection/:name
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+

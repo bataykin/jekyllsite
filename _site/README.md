@@ -1,1 +1,1 @@
-readme coming soon)
+Hey this is my temporary readme for jekyll first attempt site
